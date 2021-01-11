@@ -34,8 +34,8 @@ submitStory =()=>{
       'date':firebase.firestore.Timestamp.now().toDate(),
     })
 
-    ToastAndroid.show('Your story has been sumitted. If your story does not appear in the read story section, please wait'
-        , ToastAndroid.SHORT)
+    ToastAndroid.show('Your story has been sumitted. If your story does not appear in the read story section, please wait, do not submit again 🙏'
+        , ToastAndroid.LONG)
 }
 
   render() {
