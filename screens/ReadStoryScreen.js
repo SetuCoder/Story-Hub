@@ -74,7 +74,7 @@ export default class ReadStoryScreen extends React.Component {
             />
           <View styles ={{height:20,width:'100%'}}>
               <SearchBar
-              placeholder="Search to see results..."
+              placeholder="Search..."
               onChangeText={text => this.SearchFilterFunction(text)}
               onClear={text => this.SearchFilterFunction('')}
               value={this.state.search}
