@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "StoryHub-5",
-    "slug": "storyhub5",
+    "name": "StoryHub",
+    "slug": "storyhub",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,7 +23,8 @@
       "favicon": "./assets/favicon.png"
     },
     "android": {
-      "package": "com.setucoder.storyhub5"
+      "package": "com.setucoder.storyhub",
+      "versionCode": 1
     }
   }
 }
